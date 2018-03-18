@@ -1,0 +1,28 @@
+$wine: #eC1541;
+
+body{
+	background-color: $wine;
+}
+#preloader{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	//background-color: #CEC289;
+	z-index:9;
+	text-align: center;	
+	background: {
+		color:gray;
+		image:url("../img/preloader.gif");
+		repeat:no-repeat;
+		position:center;
+
+	}
+		p{
+			top:50%;
+			position:relative;
+
+		}
+
+}
